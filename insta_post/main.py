@@ -10,19 +10,19 @@ import mysql.connector
 # Set your API keys and other configuration variables
 # Set the OpenAI API key
 
-openai_api_key = "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"
-ig_user_id ="17841463306216373"
-access_token='EAAPG3sN8iS8BO0WBVFflll3p5IuS09KZCXquEq5weCPVxqNYqaVvtI2F7rQLL4RhgZBhqj9knGr9nx6NHYnqoDZCV8vxVEYLZBRcSfvNKidb8AeFe5YLnIDBRieRtFz7AD32jdAJL0GKSCHL28lALupV6oZAKUhrMxzOkb1ZAzt7ZCa9GjhgYLEdrLBflNHJqCijxockDZABkeiNcBS4nuwMIZBLopEkBZB0fOchv2'
-bucket_name = 'promt-story-photo'
+openai_api_key = "your open ai key"
+ig_user_id ="your ig_user_id"
+access_token='acces token'
+bucket_name = 'your bucket name'
 
 
 # configration parameter for mysql
 
 db_config = {
-    'user': 'wiomsudo',
-    'password': 'wiomsudo',
-    'host': '34.131.151.203',
-    'database': 'wiombot'
+    'user': 'your user name',
+    'password': 'your user password',
+    'host': '34 hoste name',
+    'database': 'name of database'
 }
 
 # inserting the required data to the mysql table
